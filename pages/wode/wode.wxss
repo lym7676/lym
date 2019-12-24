@@ -1,0 +1,127 @@
+/* pages/wode/wode.wxss */
+
+.wode_wrap {
+  background-color: #21272e;
+}
+
+.top {
+  text-align: center;
+  padding-top: 20rpx;
+  overflow: hidden;
+}
+
+.top text {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.top image {
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-right: 20rpx;
+}
+
+.touxiang>.img>image {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 90rpx;
+}
+
+.touxiang .img {
+  margin: 30rpx;
+}
+
+.zi {
+  color: #b5b7c5;
+  font-size: 26rpx;
+}
+
+.ziti {
+  color: #fff;
+  margin-top: 40rpx;
+  font-size: 40rpx;
+}
+
+.text {
+  border-bottom: 1px solid #252930;
+  width: 500rpx;
+  margin-bottom: 90rpx;
+}
+
+.two {
+  display: flex;
+}
+
+.share image {
+  width: 60rpx;
+  height: 60rpx;
+  float: left;
+}
+
+.share {
+  width: 160rpx;
+  height: 60rpx;
+  border: 1px solid #545d66;
+  position: absolute;
+  top: 180rpx;
+  left: 550rpx;
+  border-radius: 5px;
+}
+
+.text1 {
+  color: #9497ab;
+  line-height: 60rpx;
+}
+
+.two {
+  position: relative;
+}
+
+.three {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #2b323b;
+  display: flex;
+  height: 120rpx;
+  border-radius: 10px;
+}
+
+.one text {
+  display: block;
+}
+
+.one {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  border-right: 1px solid #363c45;
+}
+
+.yi {
+  font-weight: 400;
+  font-size: 38rpx;
+  margin-top: 20rpx;
+}
+
+.er {
+  font-size: 24rpx;
+  color: #b5b7c5;
+}
+
+.four {
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #333c47;
+  line-height: 100rpx;
+  margin-bottom: 40rpx;
+}
+
+.four_two {
+  float: right;
+}
+
+.four view {
+  display: inline-block;
+}

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/wode/wode",
+    "pages/home/home",
+    "pages/fenlei/fenlei",
+    "pages/kehaun/kehaun",
+    "pages/logs/logs",
+    "pages/book/book",
+    "pages/shenghuo/shenghuo"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "./img/Home.png",
+        "selectedIconPath": "./img/Home.png"
+      },
+      {
+        "pagePath": "pages/fenlei/fenlei",
+        "iconPath": "./img/Shap.png",
+        "selectedIconPath": "./img/Shape.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "iconPath": "./img/book.png",
+        "selectedIconPath": "./img/books.png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "iconPath": "./img/myself.png",
+        "selectedIconPath": "./img/myselfs.png"
+      }
+    ]
+  }
+}

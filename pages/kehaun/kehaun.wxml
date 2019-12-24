@@ -1,0 +1,19 @@
+<!--pages/kehaun/kehaun.wxml-->
+<view class="kehuan_wrap">
+  <view class="top">
+    <text>科幻</text>
+    <image src="../../img/更多.png"></image>
+  </view>
+  <view class="bottom">
+  <view class="hotlist">
+    <view class="left left1" wx:for="{{hotlist}}" wx:key="key">
+      <image class="img" src="{{item.img}}"></image>
+      <view class="right">
+        <view class="title">{{item.title}}</view>
+        <view class="author">{{item.name}}</view>
+        <view class="jieshao">{{item.jieshao}}</view>
+      </view>
+    </view>
+  </view>
+  </view>
+</view>

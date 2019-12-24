@@ -1,0 +1,66 @@
+/* pages/kehaun/kehaun.wxss */
+
+.kehuan_wrap {
+  background-color: #21272e;
+}
+
+.top {
+  text-align: center;
+  padding-top: 20rpx;
+}
+
+.top text {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.top image {
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-right: 20rpx;
+}
+
+.left {
+  width: 600rpx;
+  height: 250rpx;
+  background-color: #2b323b;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  margin: 0 auto;
+}
+.left1{
+  margin-top: 40px;
+}
+.right {
+  float: left;
+  width: 350rpx;
+}
+
+.left>.img {
+  width: 170rpx;
+  height: 250rpx;
+  float: left;
+  margin-top: -30rpx;
+  margin-right: 28rpx;
+}
+
+.right>.title {
+  padding-top: 30rpx;
+  color: #fff;
+  font-size: 36rpx;
+}
+
+.right>.author {
+  color: #53596f;
+  margin-top: 13rpx;
+  font-size: 24rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #353c46;
+}
+
+.right>.jieshao {
+  font-size: 24rpx;
+  color: #868dab;
+  margin-top: 15rpx;
+}

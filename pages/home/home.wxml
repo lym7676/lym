@@ -1,0 +1,83 @@
+<!--pages/home/home.wxml-->
+<view class="home_wrap">
+  <view class="top">
+    <image class="one" src="../../img/奖杯.png"></image>
+    <image class="two" src="../../img/更多.png"></image>
+  </view>
+  <view class="search">
+    <image class="sousuo" src="../../img/搜索.png"></image>
+    <input class="input" placeholder="搜索...."></input>
+  </view>
+  <view class="bottom">
+    <view class="ranking">
+      <view class="ranking">
+        <view class="title">
+          <text class="author">分类排行</text>
+          <text class="all">查看全部 ></text>
+        </view>
+        <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+          <view class="a">
+            <view wx:for="{{caidan}}" wx:key="*this" class="tuwen" bindtap="kh"
+            data-liu="{{item.text}}">
+              <image src="{{item.img}}"></image>
+              <text>{{item.text}}</text>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+      <view class="ranking">
+        <view class="title">
+          <text class="author">作者排行</text>
+          <text class="all">查看全部 ></text>
+        </view>
+        <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+          <view class="a">
+            <view wx:for="{{caidan}}" wx:key="*this" class="tuwen">
+              <image src="{{item.img}}"></image>
+              <text>{{item.text}}</text>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+      <view class="ranking">
+        <view class="title">
+          <text class="author">新发布</text>
+          <text class="all">查看全部 ></text>
+        </view>
+        <view class="a b">
+          <view wx:for="{{shuju}}" wx:key="*this" class="tw">
+            <image src="{{item.img}}"></image>
+            <text>{{item.text}}</text>
+            <text class="text">{{item.name}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="popular ranking">
+      <view class="rmss">
+        <text>热门搜索</text>
+      </view>
+      <view class="ssbox">
+        <view class="sscontent" wx:for="{{content}}" wx:key="key" style="color:{{item.color}};border:1rpx solid {{item.color}} ">{{item.title}}</view>
+      </view>
+    </view>
+    <view class="zuihou">
+    <view class="title">
+      <text class="author">热销榜</text>
+      <text class="all">查看全部 ></text>
+    </view>
+    <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+      <view class="hotlist">
+        <view class="left" wx:for="{{hotlist}}" wx:key="key">
+          <image class="img" src="{{item.img}}"></image>
+          <view class="right">
+            <view class="title">{{item.title}}</view>
+            <view class="author">{{item.name}}</view>
+            <view class="jieshao">{{item.jieshao}}</view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    </view>
+  </view>
+</view>
