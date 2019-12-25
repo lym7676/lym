@@ -1,4 +1,38 @@
 <!--pages/fenlei/fenlei.wxml-->
-<view class="fenlei_wrap">
-  
+<view class="fenlei_wrap color">
+  <view class="top">
+    <view class="kh">
+      <text>探索</text>
+    </view>
+    <image bindtap="qiehuan" src="../../img/更多.png"></image>
+    <image src="../../img/更多.png"></image>
+  </view>
+  <view class="img">
+    <image src="../../img/paihang9.png"></image>
+  </view>
+  <view class="two">
+    <view class="title">
+      <text>三体：死神永生</text>
+    </view>
+    <view class="author">
+      <text>刘慈欣</text>
+    </view>
+  </view>
+  <view class="three">
+    <view class="tu">
+      <image src="../../img/paihang7.png"></image>
+      <image src="../../img/paihang7.png"></image>
+      <image src="../../img/paihang7.png"></image>
+      <image src="../../img/paihang7.png"></image>
+    </view>
+    <view class="zongji">
+      <text>457人已阅读</text>
+    </view>
+  </view>
+  <view class="four">
+    <image src="../../img/paihang7.png"></image>
+    <view class="name">陈小冬
+      <text class="tuijian">推荐</text>
+    </view>
+  </view>
 </view>

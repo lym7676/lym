@@ -17,8 +17,7 @@
         </view>
         <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
           <view class="a">
-            <view wx:for="{{caidan}}" wx:key="*this" class="tuwen" bindtap="kh"
-            data-liu="{{item.text}}">
+            <view wx:for="{{caidan}}" wx:key="*this" class="tuwen" bindtap="kh" data-liu="{{item.text}}">
               <image src="{{item.img}}"></image>
               <text>{{item.text}}</text>
             </view>
@@ -32,7 +31,7 @@
         </view>
         <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
           <view class="a">
-            <view wx:for="{{caidan}}" wx:key="*this" class="tuwen">
+            <view wx:for="{{zuozhe}}" wx:key="*this" class="tuwen">
               <image src="{{item.img}}"></image>
               <text>{{item.text}}</text>
             </view>
@@ -45,7 +44,7 @@
           <text class="all">查看全部 ></text>
         </view>
         <view class="a b">
-          <view wx:for="{{shuju}}" wx:key="*this" class="tw">
+          <view wx:for="{{shuju}}" wx:key="*this" bindtap="xinxi" data-mei="{{item.text}}" class="tw">
             <image src="{{item.img}}"></image>
             <text>{{item.text}}</text>
             <text class="text">{{item.name}}</text>
@@ -62,22 +61,22 @@
       </view>
     </view>
     <view class="zuihou">
-    <view class="title">
-      <text class="author">热销榜</text>
-      <text class="all">查看全部 ></text>
-    </view>
-    <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
-      <view class="hotlist">
-        <view class="left" wx:for="{{hotlist}}" wx:key="key">
-          <image class="img" src="{{item.img}}"></image>
-          <view class="right">
-            <view class="title">{{item.title}}</view>
-            <view class="author">{{item.name}}</view>
-            <view class="jieshao">{{item.jieshao}}</view>
+      <view class="title">
+        <text class="author">热销榜</text>
+        <text class="all">查看全部 ></text>
+      </view>
+      <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+        <view class="hotlist">
+          <view class="left" wx:for="{{hotlist}}" wx:key="key">
+            <image class="img" src="{{item.img}}"></image>
+            <view class="right">
+              <view class="title">{{item.title}}</view>
+              <view class="author">{{item.name}}</view>
+              <view class="jieshao">{{item.jieshao}}</view>
+            </view>
           </view>
         </view>
-      </view>
-    </scroll-view>
+      </scroll-view>
     </view>
   </view>
 </view>

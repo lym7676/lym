@@ -1,1 +1,43 @@
 /* pages/book/book.wxss */
+.top {
+  text-align: center;
+  padding-top: 20rpx;
+}
+
+.top text {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.kh {
+  padding-top: 20rpx;
+}
+
+.top image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+  float: right;
+  margin-top: -35rpx;
+}
+.two{
+  margin-top: 60rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.img{
+  width: 270rpx;
+  height: 400rpx;
+}
+.name{
+  display: block;
+  color: white;
+  font-size: 26rpx;
+  text-align: center;
+}
+.tuwen{
+  margin-bottom: 60rpx;
+}

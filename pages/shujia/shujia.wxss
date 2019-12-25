@@ -1,0 +1,63 @@
+/* pages/shujia/shujia.wxss */
+.shuji_wrap{
+  width: 90%;
+  margin: 0 auto;
+}
+.top {
+  text-align: center;
+  padding-top: 20rpx;
+}
+
+.top text {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.top image {
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-right: 20rpx;
+}
+.author {
+  color: white;
+}
+
+.all {
+  color: #a2a8ba;
+  font-size: 24rpx;
+  float: right;
+}
+
+.ranking>.title {
+  overflow: hidden;
+  margin: 40rpx 0;
+}
+.a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tw>image {
+  width: 205rpx;
+  height: 270rpx;
+}
+
+.tw>text {
+  color: #fff;
+  display: block;
+  font-size: 26rpx;
+  margin-top: 10rpx;
+}
+
+.tw>.text {
+  margin-bottom: 40rpx;
+  color: #a2a8ba;
+  font-size: 23rpx;
+}

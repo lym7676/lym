@@ -1,0 +1,104 @@
+/* pages/shuji/shuji.wxss */
+@import '../../img/iconfont';
+.shuji_wrap{
+  width: 90%;
+  margin: auto;
+}
+.icon-start-copy{
+  color: #fb6894;
+}
+.top{
+  display: flex;
+  padding-top: 30px;
+  margin: 0 40rpx;
+}
+.img image{
+  width: 250rpx;
+  height: 370rpx;
+  margin-right: 20rpx;
+}
+.hanzi{
+  padding-top: 15px;
+}
+.hanzi text{
+  
+  margin-top: 20rpx;
+  line-height: 45rpx;
+}
+.title{
+  display: block;
+  color: #fff;
+  font-size: 40rpx;
+}
+.author{
+  display: block;
+  color: #828d9a;
+}
+.jieshao{
+  display: block;
+  color: #828d9a;
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+}
+.tuwen image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 15rpx;
+}
+.two{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #323643;
+  border-bottom: 1px solid #323643;
+  height: 100rpx;
+  margin: 40rpx;
+}
+.tuwen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.wu{
+  font-size: 40rpx;
+  color: #ffce44;
+}
+.three{
+  padding-bottom: 40rpx;
+  color: #fff;
+}
+.a{
+  margin: 0 40rpx;
+  border-bottom: 1px solid #323643;
+}
+.yi{
+  font-size: 35rpx;
+  padding-bottom: 20rpx;
+}
+.er{
+  font-size: 24rpx;
+  color: #828d9a;
+}
+.four {
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #333c47;
+  line-height: 100rpx;
+}
+
+.four_two {
+  float: right;
+}
+
+.four view {
+  display: inline-block;
+}
+.four_two image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.pl{
+  color: blue;
+  font-size: 24rpx;
+}

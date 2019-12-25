@@ -1,25 +1,21 @@
-// pages/book/book.js
+// pages/shuji/shuji.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    "shuju":[{
-      'src':'../../img/paihang12.png',
-      'text':'未来简史'
+    "data":[{
+      'src':'../../img/心.png',
+      'text':'收藏'
     },
       {
-        'src': '../../img/paihang12.png',
-        'text': '未来简史'
+        'src': '../../img/分享.png',
+        'text': '分享'
       },
       {
-        'src': '../../img/paihang12.png',
-        'text': '未来简史'
-      },
-      {
-        'src': '../../img/paihang12.png',
-        'text': '未来简史'
+        'src': '../../img/书架.png',
+        'text': '放入书架'
       }
     ]
   },

@@ -1,13 +1,14 @@
 {
   "pages": [
-    "pages/wode/wode",
+    "pages/shujia/shujia",
     "pages/home/home",
+    "pages/book/book",
     "pages/fenlei/fenlei",
+    "pages/wode/wode",
     "pages/kehaun/kehaun",
     "pages/logs/logs",
-    "pages/book/book",
-    "pages/shenghuo/shenghuo"
-    
+    "pages/shenghuo/shenghuo",
+    "pages/shuji/shuji"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -30,7 +31,7 @@
         "selectedIconPath": "./img/Shape.png"
       },
       {
-        "pagePath": "pages/book/book",
+        "pagePath": "pages/shujia/shujia",
         "iconPath": "./img/book.png",
         "selectedIconPath": "./img/books.png"
       },

@@ -6,25 +6,46 @@ Page({
    */
   data: {
     "caidan": [{
-        'img': '../../img/paihang5.png',
-        'text': '刘慈欣'
+        'img': '../../img/paihang1.png',
+        'text': '科幻'
       },
       {
-        'img': '../../img/paihang5.png',
-        'text': '刘亚梅'
+        'img': '../../img/paihang2.png',
+        'text': '生活'
       },
       {
-        'img': '../../img/paihang5.png',
-        'text': '刘梅'
+        'img': '../../img/paihang3.png',
+        'text': '露营'
       },
       {
-        'img': '../../img/paihang5.png',
-        'text': '刘亚'
+        'img': '../../img/paihang4.png',
+        'text': '职场'
       },
       {
         'img': '../../img/paihang5.png',
         'text': '刘慈欣'
       }
+    ],
+    "zuozhe": [{
+      'img': '../../img/paihang5.png',
+      'text': '刘慈欣'
+    },
+    {
+      'img': '../../img/paihang6.png',
+      'text': '田小花'
+    },
+    {
+      'img': '../../img/paihang7.png',
+      'text': '马尔克斯'
+    },
+    {
+      'img': '../../img/paihang8.png',
+      'text': '余秋雨'
+    },
+    {
+      'img': '../../img/paihang8.png',
+      'text': '刘慈欣'
+    }
     ],
     "shuju": [{
         'img': '../../img/paihang9.png',
@@ -32,29 +53,29 @@ Page({
         'name': '刘慈欣'
       },
       {
-        'img': '../../img/paihang9.png',
-        'text': '三体：死神永生',
-        'name': '刘慈欣'
+        'img': '../../img/paihang10.png',
+        'text': '人类简史',
+        'name': '尤瓦尔.郝拉利'
       },
       {
-        'img': '../../img/paihang9.png',
-        'text': '三体：死神永生',
-        'name': '刘慈欣'
+        'img': '../../img/paihang11.png',
+        'text': '许三观卖血记',
+        'name': '余华'
       },
       {
-        'img': '../../img/paihang9.png',
-        'text': '三体：死神永生',
-        'name': '刘慈欣'
+        'img': '../../img/paihang12.png',
+        'text': '未来简史',
+        'name': '尤瓦尔.郝拉利'
       },
       {
-        'img': '../../img/paihang9.png',
-        'text': '三体：死神永生',
-        'name': '刘慈欣'
+        'img': '../../img/paihang13.png',
+        'text': '自私的基因',
+        'name': '理查德.道金斯'
       },
       {
-        'img': '../../img/paihang9.png',
-        'text': '三体：死神永生',
-        'name': '刘慈欣'
+        'img': '../../img/paihang14.png',
+        'text': '百年孤独',
+        'name': '马尔克斯'
       }
     ],
     "content": [{
@@ -96,15 +117,22 @@ Page({
   kh(e) {
     console.log(e.currentTarget.dataset.liu)
     var data = e.currentTarget.dataset.liu
-    if (data == '刘慈欣') {
+    if (data == '科幻') {
       wx.navigateTo({
         url: '../kehaun/kehaun'
       })
-    } else if (data == "刘亚梅") {
+    } else if (data == "生活") {
       wx.navigateTo({
         url: '../shenghuo/shenghuo'
       })
     }
+  },
+  xinxi(e){
+    console.log(e.currentTarget.dataset.mei)
+    let liu = e.currentTarget.dataset.mei
+    wx.navigateTo({
+      url: '../shuji/shuji?id=' + liu
+    })
   },
   /**
    * 生命周期函数--监听页面加载

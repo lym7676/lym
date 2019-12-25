@@ -29,9 +29,9 @@
       <text class="er">{{item.text}}</text>
     </view>
   </view>
-   <view wx:for="{{content}}" class="four">
-    <view class="four_one">个人信息</view>
-    <view class="four_two">></view>
+  <view wx:for="{{content}}" wx:key="*this" class="four">
+    <view class="four_one">{{item.shuzi}}</view>
+    <view class="four_two">{{item.text}}</view>
   </view>
- 
+
 </view>

@@ -115,7 +115,6 @@
   margin: 0 auto;
   border-bottom: 1px solid #333c47;
   line-height: 100rpx;
-  margin-bottom: 40rpx;
 }
 
 .four_two {

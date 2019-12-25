@@ -1,2 +1,16 @@
 <!--pages/book/book.wxml-->
-<text>pages/book/book.wxml</text>
+<view class="book_wrap color">
+  <view class="top">
+    <view class="kh">
+      <text>探索</text>
+    </view>
+    <image src="../../img/更多.png"></image>
+    <image src="../../img/更多.png"></image>
+  </view>
+  <view class="two">
+    <view wx:for="{{shuju}}" wx:key="*this" class="tuwen">
+      <image class="img" src="{{item.src}}"></image>
+      <text class="name">{{item.text}}</text>
+    </view>
+  </view>
+</view>
