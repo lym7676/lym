@@ -4,7 +4,7 @@
     <image class="one" src="../../img/奖杯.png"></image>
     <image class="two" src="../../img/更多.png"></image>
   </view>
-  <view class="search">
+  <view bindtap="ss" class="search">
     <image class="sousuo" src="../../img/搜索.png"></image>
     <input class="input" placeholder="搜索...."></input>
   </view>
@@ -31,7 +31,7 @@
         </view>
         <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
           <view class="a">
-            <view wx:for="{{zuozhe}}" wx:key="*this" class="tuwen">
+            <view wx:for="{{zuozhe}}" wx:key="*this" class="tuwen" bindtap="zz" data-liu="{{item.text}}">
               <image src="{{item.img}}"></image>
               <text>{{item.text}}</text>
             </view>

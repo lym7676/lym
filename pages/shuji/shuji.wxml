@@ -30,12 +30,55 @@
       </view>
     </view>
     <view class="four">
-    <view class="four_one">个人信息</view>
-    <view class="four_two">></view>
+      <view class="four_one">个人信息</view>
+      <view class="four_two">></view>
+    </view>
+    <view class="four1">
+      <view class="four_one">评论
+        <text class="pl" bindtap="pl">215条评论</text>
+      </view>
+      <view class="four_two">
+        <image src="../../img/笔记.png"></image>
+      </view>
+    </view>
+    <view class="five">
+      <view class="touxiang">
+        <image src="../../img/paihang1.png"></image>
+      </view>
+      <view class="pinglun">
+        <view class="name">你个废物</view>
+        <view class="xinxi">
+          <text>啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</text>
+        </view>
+        <view class="time">
+          <view class="shijian">12-26 11:04</view>
+          <view class="dianzan">
+            <image src="../../img/心1.png"></image>
+            <text>134    </text>
+            <image src="../../img/评论.png"></image>
+            <text>89</text>
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
-  <view class="four">
-    <view class="four_one">评论 <text class="pl">215条评论</text></view>
-    <view class="four_two"><image src="../../img/笔记.png"></image></view>
+  <view class="big">
+    <view class="xiao">试看</view>
+    <view class="zhong" bindtap="showDialogBtn">购买</view>
   </view>
+  <!--弹窗-->
+  <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+  <view class="modal-dialog" wx:if="{{showModal}}">
+    <view class="modal-title">
+      <image src="../../img/paihang15.png"></image>
+    </view>
+    <view class="modal-content">
+      <view class="modal-input">
+        已经将这本书加入到个人书架
+      </view>
+    </view>
+    <view class="modal-footer">
+      好的
+    </view>
   </view>
 </view>

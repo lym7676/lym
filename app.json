@@ -1,14 +1,18 @@
 {
   "pages": [
-    "pages/shujia/shujia",
     "pages/home/home",
+    "pages/shujia/shujia",
     "pages/book/book",
     "pages/fenlei/fenlei",
     "pages/wode/wode",
     "pages/kehaun/kehaun",
     "pages/logs/logs",
     "pages/shenghuo/shenghuo",
-    "pages/shuji/shuji"
+    "pages/shuji/shuji",
+    "pages/zuozhe/zuozhe",
+    "pages/search/search",
+    "pages/pinglun/pinglun",
+    "pages/zzxx/zzxx"
   ],
   "window": {
     "backgroundTextStyle": "light",

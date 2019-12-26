@@ -1,0 +1,72 @@
+<!--pages/zuozhe/zuozhe.wxml-->
+<view class="color">
+  <view class="author_wrap">
+    <view class="top">
+      <text>作者</text>
+      <image src="../../img/更多.png"></image>
+    </view>
+    <view class="paiming">
+      <view bindtap="zz" class="two">
+        <view class="hg">
+          <image src="../../img/Shape3.png"></image>
+        </view>
+        <image class="touxiang" src="../../img/paihang5.png"></image>
+        <view class="xh xx">1</view>
+        <view class="name aa">刘慈心</view>
+        <view class="fensi">6598 粉丝</view>
+      </view>
+      <view bindtap="zz" class="two">
+        <view class="gh">
+          <image src="../../img/Shape3.png"></image>
+        </view>
+        <image class="touxiang tou" src="../../img/paihang5.png"></image>
+        <view class="xh hx">1</view>
+        <view class="name">刘慈心</view>
+        <view class="fensi">6598 粉丝</view>
+      </view>
+      <view bindtap="zz" class="two">
+        <view class="hg">
+          <image src="../../img/Shapew.png"></image>
+        </view>
+        <image class="touxiang" src="../../img/paihang5.png"></image>
+        <view class="xh hh">1</view>
+        <view class="name nn">刘慈心</view>
+        <view class="fensi">6598 粉丝</view>
+      </view>
+    </view>
+    <view class="ranking">
+      <view class="title">
+        <text class="author">分类排行</text>
+        <text class="all">查看全部 ></text>
+      </view>
+      <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+        <view class="a">
+          <view wx:for="{{reactor}}" wx:key="*this" class="tuwen" bindtap="kh" data-liu="{{item.text}}">
+            <image src="{{item.img}}"></image>
+            <text>{{item.text}}</text>
+            <view class="guanzhu">
+              <text>{{item.guanzhu}}</text>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+    <view class="ranking">
+      <view class="title">
+        <text class="author">分类排行</text>
+        <text class="all">查看全部 ></text>
+      </view>
+      <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+        <view class="a">
+          <view wx:for="{{newactor}}" wx:key="*this" class="tuwen" bindtap="kh" data-liu="{{item.text}}">
+            <image src="{{item.img}}"></image>
+            <text>{{item.text}}</text>
+            <view class="guanzhu">
+              <text>{{item.guanzhu}}</text>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

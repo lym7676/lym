@@ -134,6 +134,24 @@ Page({
       url: '../shuji/shuji?id=' + liu
     })
   },
+  zz(e) {
+    console.log(e.currentTarget.dataset.liu)
+    var data = e.currentTarget.dataset.liu
+    if (data == '刘慈欣') {
+      wx.navigateTo({
+        url: '../zuozhe/zuozhe'
+      })
+    } else if (data == "田小花") {
+      wx.navigateTo({
+        url: '../shenghuo/shenghuo'
+      })
+    }
+  },
+  ss(){
+    wx.navigateTo({
+      url: '../search/search'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

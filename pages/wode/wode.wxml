@@ -7,7 +7,7 @@
   <view class="two">
     <view class="touxiang">
       <view class="img">
-        <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1507501723,1882817901&fm=11&gp=0.jpg"></image>
+        <image src="../../img/头像.jpg"></image>
       </view>
     </view>
     <view class="text">
