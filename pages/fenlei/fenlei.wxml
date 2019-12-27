@@ -4,8 +4,8 @@
     <view class="kh">
       <text>探索</text>
     </view>
-    <image bindtap="qiehuan" src="../../img/更多.png"></image>
-    <image src="../../img/更多.png"></image>
+    <image bindtap="qiehuan" src="../../img/gengduo.png"></image>
+    <image src="../../img/gengduo.png"></image>
   </view>
   <view class="img">
     <image src="../../img/paihang9.png"></image>

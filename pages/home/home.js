@@ -27,25 +27,25 @@ Page({
       }
     ],
     "zuozhe": [{
-      'img': '../../img/paihang5.png',
-      'text': '刘慈欣'
-    },
-    {
-      'img': '../../img/paihang6.png',
-      'text': '田小花'
-    },
-    {
-      'img': '../../img/paihang7.png',
-      'text': '马尔克斯'
-    },
-    {
-      'img': '../../img/paihang8.png',
-      'text': '余秋雨'
-    },
-    {
-      'img': '../../img/paihang8.png',
-      'text': '刘慈欣'
-    }
+        'img': '../../img/paihang5.png',
+        'text': '刘慈欣'
+      },
+      {
+        'img': '../../img/paihang6.png',
+        'text': '田小花'
+      },
+      {
+        'img': '../../img/paihang7.png',
+        'text': '马尔克斯'
+      },
+      {
+        'img': '../../img/paihang8.png',
+        'text': '余秋雨'
+      },
+      {
+        'img': '../../img/paihang8.png',
+        'text': '刘慈欣'
+      }
     ],
     "shuju": [{
         'img': '../../img/paihang9.png',
@@ -114,6 +114,11 @@ Page({
       }
     ]
   },
+  qubu() {
+    wx.navigateTo({
+      url: '../fenle/fenle',
+    })
+  },
   kh(e) {
     console.log(e.currentTarget.dataset.liu)
     var data = e.currentTarget.dataset.liu
@@ -127,7 +132,7 @@ Page({
       })
     }
   },
-  xinxi(e){
+  xinxi(e) {
     console.log(e.currentTarget.dataset.mei)
     let liu = e.currentTarget.dataset.mei
     wx.navigateTo({
@@ -147,7 +152,7 @@ Page({
       })
     }
   },
-  ss(){
+  ss() {
     wx.navigateTo({
       url: '../search/search'
     })

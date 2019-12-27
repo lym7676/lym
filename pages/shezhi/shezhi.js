@@ -1,52 +1,39 @@
-// pages/wode/wode.js
+// pages/shezhi/shezhi.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    "shuju": [{
-        'shuzi': '1286',
-        'text': '关注'
-      },
-      {
-        'shuzi': '1286',
-        'text': '关注'
-      },
-      {
-        'shuzi': '1286',
-        'text': '关注'
-      }
-    ],
     "content": [{
-        'shuzi': '个人信息',
+        'shuzi': '查看账户',
         'text': '>'
       },
       {
-        'shuzi': '个人信息',
+        'shuzi': '个人资料',
         'text': '>'
       },
       {
-        'shuzi': '个人信息',
+        'shuzi': '消息提醒',
         'text': '>'
       },
       {
-        'shuzi': '个人信息',
+        'shuzi': '清理缓存',
         'text': '>'
       },
       {
-        'shuzi': '个人信息',
+        'shuzi': '帮助中心',
         'text': '>'
       },
       {
-        'shuzi': '个人信息',
+        'shuzi': '关于我们',
         'text': '>'
       },
     ]
   },
-  sz() {
+  cz(){
     wx.navigateTo({
-      url: '../shezhi/shezhi',
+      url: '../yue/yue',
     })
   },
   /**

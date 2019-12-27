@@ -1,0 +1,42 @@
+/* pages/shezhi/shezhi.wxss */
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+.top {
+  text-align: center;
+  padding: 20rpx;
+}
+
+.top text {
+  color: #fff;
+  font-size: 40rpx;
+}
+.four {
+  color: #dcdeea;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #333c47;
+  line-height: 100rpx;
+}
+
+.four_two {
+  float: right;
+}
+
+.four view {
+  display: inline-block;
+}
+.two{
+  width: 100%;
+  line-height: 100rpx;
+  background-color: #2e363f;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+}
+.shezhi_wrap{
+  position: relative;
+  height: 600px;
+}

@@ -18,7 +18,7 @@
       </view>
     </view>
     <view class="two">
-      <view wx:for="{{data}}" wx:key="*this" class="tuwen">
+      <view wx:for="{{data}}" wx:key="*this" bindtap="showDialogBtn" class="tuwen">
         <image src="{{item.src}}"></image>
         <text>{{item.text}}</text>
       </view>
@@ -38,7 +38,7 @@
         <text class="pl" bindtap="pl">215条评论</text>
       </view>
       <view class="four_two">
-        <image src="../../img/笔记.png"></image>
+        <image src="../../img/biji.png"></image>
       </view>
     </view>
     <view class="five">
@@ -53,9 +53,9 @@
         <view class="time">
           <view class="shijian">12-26 11:04</view>
           <view class="dianzan">
-            <image src="../../img/心1.png"></image>
+            <image src="../../img/xin1.png"></image>
             <text>134    </text>
-            <image src="../../img/评论.png"></image>
+            <image src="../../img/pinglun.png"></image>
             <text>89</text>
           </view>
         </view>
@@ -64,7 +64,7 @@
   </view>
   <view class="big">
     <view class="xiao">试看</view>
-    <view class="zhong" bindtap="showDialogBtn">购买</view>
+    <view class="zhong" bindtap="car">购买</view>
   </view>
   <!--弹窗-->
   <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>

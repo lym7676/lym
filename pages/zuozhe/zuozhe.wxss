@@ -1,6 +1,11 @@
 /* pages/zuozhe/zuozhe.wxss */
 @import '../../img/iconfont';
 
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+
 .author_wrap {
   width: 90%;
   margin: 0 auto;
@@ -160,6 +165,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .guanzhu>text {
   color: #fff;
   display: block;

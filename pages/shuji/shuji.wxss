@@ -1,5 +1,11 @@
 /* pages/shuji/shuji.wxss */
 @import '../../img/iconfont';
+
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+
 .shuji_wrap {
   width: 90%;
   margin: auto;
@@ -115,9 +121,11 @@
 .four view {
   display: inline-block;
 }
-.four_two{
+
+.four_two {
   float: right;
 }
+
 .four_two image {
   width: 40rpx;
   height: 40rpx;
@@ -165,11 +173,12 @@
   margin-top: 20rpx;
 }
 
-.big{
+.big {
   height: 100rpx;
   background-color: #373a49;
 }
-.big view{
+
+.big view {
   display: inline-block;
   text-align: center;
   line-height: 70rpx;
@@ -178,20 +187,22 @@
   color: #fff;
   font-size: 30rpx;
 }
-.xiao{
+
+.xiao {
   width: 200rpx;
   border-radius: 40rpx;
   background-color: #9295a9;
 }
-.zhong{
+
+.zhong {
   width: 400rpx;
   border-radius: 40rpx;
   background-color: #fb6894;
 }
-.big{
+
+.big {
   margin-top: 40rpx;
 }
-
 
 .modal-mask {
   width: 100%;
@@ -205,7 +216,7 @@
   z-index: 9000;
   color: #fff;
 }
- 
+
 .modal-dialog {
   width: 400rpx;
   overflow: hidden;
@@ -217,19 +228,21 @@
   margin: -278rpx 185rpx;
   border-radius: 36rpx;
 }
- 
+
 .modal-title {
   padding: 50rpx 0px;
   text-align: center;
 }
- .modal-title image{
-   width: 170rpx;
-   height: 250rpx;
- }
+
+.modal-title image {
+  width: 170rpx;
+  height: 250rpx;
+}
+
 .modal-content {
   padding: 0px 32rpx;
 }
- 
+
 .modal-input {
   display: flex;
   border-radius: 4rpx;
@@ -237,8 +250,7 @@
   color: #fff;
   text-align: center;
 }
- 
- 
+
 .modal-footer {
   line-height: 86rpx;
   background-color: #fb6894;

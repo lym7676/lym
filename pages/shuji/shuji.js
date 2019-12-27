@@ -6,15 +6,15 @@ Page({
    */
   data: {
     "data": [{
-        'src': '../../img/心.png',
+        'src': '../../img/xin.png',
         'text': '收藏'
       },
       {
-        'src': '../../img/分享.png',
+        'src': '../../img/fenxiang.png',
         'text': '分享'
       },
       {
-        'src': '../../img/书架.png',
+        'src': '../../img/shujia.png',
         'text': '放入书架'
       }
     ],
@@ -25,6 +25,11 @@ Page({
   pl(){
     wx.navigateTo({
       url: '../pinglun/pinglun',
+    })
+  },
+  car() {
+    wx.navigateTo({
+      url: '../gouwuche/gouwuche',
     })
   },
   /**

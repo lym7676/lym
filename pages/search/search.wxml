@@ -3,7 +3,7 @@
   <view class="search_wrap">
     <view class="ss">
       <view class="search">
-        <image class="sousuo" src="../../img/搜索.png"></image>
+        <image class="sousuo" src="../../img/sousuo.png"></image>
         <input class="input" placeholder="搜索...."></input>
       </view>
       <view class="quxiao">取消</view>
@@ -24,7 +24,7 @@
     <view class="popular ranking">
       <view class="rmss">
         <text>热门搜索</text>
-        <image src="../../img/删除.png"></image>
+        <image src="../../img/shanchu.png"></image>
       </view>
       <view class="ssbox">
         <view class="sscontent" wx:for="{{content}}" wx:key="key" style="color:{{item.color}}">{{item.title}}</view>

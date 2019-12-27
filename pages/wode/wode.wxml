@@ -2,24 +2,24 @@
 <view class="wode_wrap">
   <view class="top">
     <text>我的</text>
-    <image src="../../img/设 置.png"></image>
+    <image bindtap="sz" src="../../img/shezhi.png"></image>
   </view>
   <view class="two">
     <view class="touxiang">
       <view class="img">
-        <image src="../../img/头像.jpg"></image>
+        <image src="../../img/paihang6.png"></image>
       </view>
     </view>
     <view class="text">
       <view class="zi ziti">
-        <text>王俊凯</text>
+        <text>刘亚梅</text>
       </view>
       <view class="zi a">
-        <text>中国.重庆</text>
+        <text>中国.河南</text>
       </view>
     </view>
     <view class="share">
-      <image src="../../img/分 享.png"></image>
+      <image src="../../img/fenxiang1.png"></image>
       <view class="text1">分享</view>
     </view>
   </view>

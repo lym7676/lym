@@ -3,7 +3,7 @@
   <view class="pinglun_wrap">
     <view class="top">
       <text>评论</text>
-      <image src="../../img/笔记.png"></image>
+      <image src="../../img/biji.png"></image>
     </view>
     <view wx:for="{{data}}" wx:key="*this" class="five">
       <view class="touxiang">
@@ -17,9 +17,9 @@
         <view class="time">
           <view class="shijian">12-26 11:04</view>
           <view class="dianzan">
-            <image src="../../img/心1.png"></image>
+            <image src="../../img/xin1.png"></image>
             <text>134    </text>
-            <image src="../../img/评论.png"></image>
+            <image src="../../img/pinglun.png"></image>
             <text>89</text>
           </view>
         </view>

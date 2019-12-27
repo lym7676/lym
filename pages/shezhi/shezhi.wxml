@@ -1,0 +1,14 @@
+<!--pages/shezhi/shezhi.wxml-->
+<view class="color">
+  <view class="shezhi_wrap">
+    <view class="top">
+      <text>设置</text>
+    </view>
+    <view bindtap="cz" wx:for="{{content}}" wx:key="*this" class="four">
+      <view class="four_one">{{item.shuzi}}</view>
+      <view class="four_two">{{item.text}}</view>
+    </view>
+    <view class="two">退出登录
+    </view>
+  </view>
+</view>

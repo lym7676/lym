@@ -2,7 +2,7 @@
 <view class="kehuan_wrap">
   <view class="top">
     <text>科幻</text>
-    <image src="../../img/更多.png"></image>
+    <image src="../../img/gengduo.png"></image>
   </view>
   <view class="bottom">
   <view class="hotlist">

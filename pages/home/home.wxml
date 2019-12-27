@@ -1,11 +1,11 @@
 <!--pages/home/home.wxml-->
 <view class="home_wrap">
   <view class="top">
-    <image class="one" src="../../img/奖杯.png"></image>
-    <image class="two" src="../../img/更多.png"></image>
+    <image class="one" src="../../img/jiangbei.png"></image>
+    <image class="two" src="../../img/gengduo.png"></image>
   </view>
   <view bindtap="ss" class="search">
-    <image class="sousuo" src="../../img/搜索.png"></image>
+    <image class="sousuo" src="../../img/sousuo.png"></image>
     <input class="input" placeholder="搜索...."></input>
   </view>
   <view class="bottom">
@@ -13,7 +13,7 @@
       <view class="ranking">
         <view class="title">
           <text class="author">分类排行</text>
-          <text class="all">查看全部 ></text>
+          <text bindtap="qubu" class="all">查看全部 ></text>
         </view>
         <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
           <view class="a">

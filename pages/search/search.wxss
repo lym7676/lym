@@ -1,20 +1,30 @@
 /* pages/search/search.wxss */
 @import '../../img/iconfont.wxss';
-.search_wrap{
+
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+
+.search_wrap {
   width: 90%;
   margin: 0 auto;
   padding-top: 40rpx;
+  height: 1100rpx;
 }
+
 .sousuo {
   width: 40rpx;
   height: 40rpx;
   margin: 20rpx;
   float: left;
 }
-.ss{
+
+.ss {
   display: flex;
   justify-content: space-between;
 }
+
 .search {
   width: 80%;
   line-height: 80px;
@@ -22,13 +32,16 @@
   overflow: hidden;
   border-radius: 40rpx;
 }
+
 .input {
   height: 80rpx;
 }
-.quxiao{
+
+.quxiao {
   line-height: 80rpx;
   color: #646877;
 }
+
 .author {
   color: white;
 }
@@ -43,6 +56,7 @@
   overflow: hidden;
   margin: 40rpx 0;
 }
+
 .a {
   display: flex;
   justify-content: space-between;
@@ -54,6 +68,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .tw>image {
   width: 205rpx;
   height: 270rpx;
@@ -71,16 +86,19 @@
   color: #a2a8ba;
   font-size: 23rpx;
 }
+
 .rmss {
   color: #fff;
   margin-top: 30px;
   margin-bottom: 15px;
 }
-.rmss image{
+
+.rmss image {
   width: 40rpx;
   height: 40rpx;
   float: right;
 }
+
 .ssbox {
   display: flex;
   flex-wrap: wrap;

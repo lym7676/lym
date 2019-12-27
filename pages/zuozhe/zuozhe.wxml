@@ -3,7 +3,7 @@
   <view class="author_wrap">
     <view class="top">
       <text>作者</text>
-      <image src="../../img/更多.png"></image>
+      <image src="../../img/gengduo.png"></image>
     </view>
     <view class="paiming">
       <view bindtap="zz" class="two">
@@ -17,7 +17,7 @@
       </view>
       <view bindtap="zz" class="two">
         <view class="gh">
-          <image src="../../img/Shape3.png"></image>
+          <image src="../../img/huangguan.png"></image>
         </view>
         <image class="touxiang tou" src="../../img/paihang5.png"></image>
         <view class="xh hx">1</view>
@@ -36,7 +36,7 @@
     </view>
     <view class="ranking">
       <view class="title">
-        <text class="author">分类排行</text>
+        <text class="author">热门作者</text>
         <text class="all">查看全部 ></text>
       </view>
       <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
@@ -53,7 +53,7 @@
     </view>
     <view class="ranking">
       <view class="title">
-        <text class="author">分类排行</text>
+        <text class="author">新晋作者</text>
         <text class="all">查看全部 ></text>
       </view>
       <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
